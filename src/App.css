@@ -1,0 +1,79 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.app-container {
+  background-image: url('https://i.pinimg.com/564x/be/8b/4d/be8b4d2a69a2b38d5d0e3d2e23e6ea19.jpg');
+  background-size: cover;
+  min-height: 100vh;
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 90%;
+  margin: auto;
+  max-width: 1200px;
+  background-image: url('https://i.pinimg.com/564x/39/4f/d7/394fd78ba7be94638add4fe7fd63cf40.jpg');
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+.brand-bg-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: black;
+  margin-bottom: 25px;
+}
+
+.main-heading-title {
+  color: aliceblue;
+  font-family: cursive;
+  padding: 15px;
+}
+
+.brand-icon {
+  margin-top: 20px;
+  width: 75px;
+  height: 75px;
+}
+
+.developer {
+  color: aliceblue;
+  background-color: black;
+  padding: 15px;
+  text-decoration: none;
+  font-family: cursive;
+  font-size: 25px;
+  margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+  .container {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .main-heading-title {
+    font-size: 20px;
+  }
+
+  .brand-icon {
+    width: 50px;
+    height: 50px;
+  }
+
+  .developer {
+    font-size: 20px;
+    padding: 10px;
+  }
+}
